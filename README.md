@@ -12,8 +12,37 @@ This is part of the portfolio projects to be submitted on Codecademy in the full
 - ### `Technologies and Environment`
 This is written in JavaScript
 
-
+- ### `Other Resources`
+    - The programming inspirational quotes were taken from [Dhiraj](https://www.linkedin.com/in/dhiraj-ray/) a blogpost on [devglan](https://www.devglan.com/blog/best-developer-quotes)
+    - The inspirational quotes were pulled from the post on [KeepInspiring.me](https://www.keepinspiring.me/motivational-quotes/)
+    - The emotional quotes were taken from [GoodReads.com](https://www.goodreads.com/quotes/tag/emotions)
+    
+- ### `Further Development`
+    - To read the various messages from a text file into the Web page view
+    - Make the web page fully functional after fixing the issue of importing the text files into the JavaScript code, and allow users get the messages from the webpage.
 
 ## `How to Use the Program`
-You call the function and then provide the parameters
-##
+You basically call the function and then provide the right parameters to the `quote` function which implements the `getMotivation` function
+
+- Just calling the function without a parameter would return a random uplifting message produced with the combination of phrases
+- There are three other options for the parameters: 
+
+  - Programming 
+  - Emotional
+  - And Inspiring
+
+- Calling the `quote` function with any of the above prints out a random message from that category.
+- Example:
+    ```
+    quote("inspirational")
+    ```
+    Would print an inspirational message
+    - `eg`: We are what we repeatedly do. Excellence, then, is not an act, but a habit. - Aristotle
+    - ```console.log(quote('inspirational'));```
+
+    ```
+    It is during our darkest moments that we must focus to see the light. - Aristotle Onassis
+    ```
+    - Happy Coding to you!
+
+
