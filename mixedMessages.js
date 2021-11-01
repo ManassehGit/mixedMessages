@@ -109,7 +109,7 @@ const quote = aString => {
 //Testing the quote function 
 //console.log(quote('inspirational'));
 
-/*
+
 //Function being worked on to forward message to the web page
 const quoteToPage = () => {
     let mood = document.getElementByName('mood');
@@ -117,14 +117,16 @@ const quoteToPage = () => {
     for(let element of mood){
         if(element.checked){
             choice = element
-            document.write(element)
+            //document.write(element)
         }
     }
     let message = getMotivation(choice);
     document.getElementById("content").innerHTML = message
 };
-*/
+let display = document.querySelector("button");
+display.onclick() = quoteToPage;
+
 
 //Main Testing 
-console.log(quote('inspirational'));
+//console.log(quote('inspirational'));
 
