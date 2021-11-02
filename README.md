@@ -22,8 +22,8 @@ This is written in JavaScript
 
 
 ## `How to Use the Program`
--The easier way is to generate from the [web page](https://manassehgit.github.io/mixedMessages/)
--You basically call the function and then provide the right parameters to the `quote` function which implements the `getMotivation` function
+- The easier way is to generate from the [web page](https://manassehgit.github.io/mixedMessages/)
+- You basically call the function and then provide the right parameters to the `quote` function which implements the `getMotivation` function
 
 - Just calling the function without a parameter would return a random uplifting message produced with the combination of phrases
 - There are three other options for the parameters: 
