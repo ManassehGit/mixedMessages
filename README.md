@@ -18,12 +18,12 @@ This is written in JavaScript
     - The emotional quotes were taken from [GoodReads.com](https://www.goodreads.com/quotes/tag/emotions)
     
 - ### `Further Development`
-    - To read the various messages from a text file into the Web page view
-    - Make the web page fully functional after fixing the issue of importing the text files into the JavaScript code.
+    - To read the various messages from a text files
+
 
 ## `How to Use the Program`
-The easier way is to generate from the [web page](https://manassehgit.github.io/mixedMessages/)
-You basically call the function and then provide the right parameters to the `quote` function which implements the `getMotivation` function
+-The easier way is to generate from the [web page](https://manassehgit.github.io/mixedMessages/)
+-You basically call the function and then provide the right parameters to the `quote` function which implements the `getMotivation` function
 
 - Just calling the function without a parameter would return a random uplifting message produced with the combination of phrases
 - There are three other options for the parameters: 
