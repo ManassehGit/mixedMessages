@@ -1,17 +1,17 @@
 h1{
     text-align: center;
     font-weight: bolder;  
-    font-size: 35pt;  
+    font-size: 30pt;  
 }
 
 .centerit{
-    max-width: 50%;
+    max-width: 70%;
     padding-left: 25%;
     padding-right: 20%;
 }
 
 p{
-    max-width: 50%;
+    max-width: 70%;
     min-height: 200px;
     font-size: 20px;
     text-align: center;
