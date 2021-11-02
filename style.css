@@ -11,10 +11,9 @@ h1{
 }
 
 p{
-    max-width: 70%;
+    text-align: center;
     min-height: 200px;
     font-size: 20px;
-    text-align: center;
     margin: 20px auto;
 }
 
