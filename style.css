@@ -5,16 +5,17 @@ h1{
 }
 
 .centerit{
-    max-width: 50%;
-    padding-left: 25%;
-    padding-right: 20%;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 p{
-    max-width: 60%;
+    max-width: 70%;
     min-height: 200px;
     font-size: 20px;
     text-align: center;
+    margin: 20px auto;
 }
 
 .radio{
