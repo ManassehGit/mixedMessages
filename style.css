@@ -5,13 +5,13 @@ h1{
 }
 
 .centerit{
-    max-width: 70%;
+    max-width: 50%;
     padding-left: 25%;
     padding-right: 20%;
 }
 
 p{
-    max-width: 70%;
+    max-width: 60%;
     min-height: 200px;
     font-size: 20px;
     text-align: center;
