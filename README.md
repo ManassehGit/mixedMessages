@@ -19,9 +19,10 @@ This is written in JavaScript
     
 - ### `Further Development`
     - To read the various messages from a text file into the Web page view
-    - Make the web page fully functional after fixing the issue of importing the text files into the JavaScript code, and allow users get the messages from the webpage.
+    - Make the web page fully functional after fixing the issue of importing the text files into the JavaScript code.
 
 ## `How to Use the Program`
+The easier way is to generate from the [web page](https://manassehgit.github.io/mixedMessages/)
 You basically call the function and then provide the right parameters to the `quote` function which implements the `getMotivation` function
 
 - Just calling the function without a parameter would return a random uplifting message produced with the combination of phrases
