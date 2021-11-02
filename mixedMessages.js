@@ -112,21 +112,33 @@ const quote = aString => {
 
 //Function being worked on to forward message to the web page
 const quoteToPage = () => {
-    let mood = document.getElementByName('mood');
-    let choice;
-    for(let element of mood){
-        if(element.checked){
-            choice = element
+    let mood = document.getElementsByName('mood');
+    //console.log(mood)
+
+    let choice = '';
+    for(let elem=0; elem<mood.length; elem++){
+        //console.log(elem)
+        if(mood[elem].checked){
+            choice = mood[elem].value;
+            //console.log(choice)
             //document.write(element)
         }
     }
-    let message = getMotivation(choice);
-    document.getElementById("content").innerHTML = message
+    let message = quote(choice);
+    
+    document.querySelector("#content").innerHTML = message;
 };
-let display = document.querySelector("button");
-display.onclick() = quoteToPage;
+
+const well = () => {
+    alert("hi there");
+}
+
+document.getElementById('submit').addEventListener('click', quoteToPage);
 
 
 //Main Testing 
 //console.log(quote('inspirational'));
 
+/**
+ * 
+ */
